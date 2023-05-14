@@ -1,0 +1,15 @@
+{
+  "name": "project_9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "client": "pnpm --filter @project_9/client",
+    "server": "pnpm --filter @project_9/server",
+    "dev": "pnpm --recursive --parallel --stream run dev"
+  },
+  "keywords": [],
+  "author": "Tushar Rane",
+  "license": "ISC"
+}
